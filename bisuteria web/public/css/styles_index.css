@@ -104,7 +104,12 @@
 
 .search-bar input {
   border-radius: 50px;
-  background-color: rgba(red, green, blue, alpha);
+  background-color: rgba(93, 37, 16, 0.5);
+  font-size: 32px;
+  color: #000;
+  font-weight: 400;
+  padding: 9px 16px;
+  border: none;
 }
 
 @media (max-width: 991px) {
