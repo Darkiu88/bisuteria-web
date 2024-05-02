@@ -1,5 +1,5 @@
 .container {
-    background-color: #fff;
+    background-color: #412F28;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,8 +132,14 @@
     object-position: center;
     width: 61px;
   }
-
+.hero-container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   .hero-image {
+
     border-radius: 120px;
     background-color: #806044;
     align-self: center;

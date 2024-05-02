@@ -1,54 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Styles_Contacto.css">
 </head>
+
 <body>
-    
+
     <div class="container">
         <header class="header">
             <div class="header-content">
                 <h1 class="logo-text">Atrévete a Brillar</h1>
-        <nav class="navigation">
-          <div class="nav-item">Inicio</div>
-          <div class="nav-group">
-            <div class="nav-item">Productos</div>
-            <div class="nav-item">Contacto</div>
-        </div>
-    </nav>
-        <div class="search-bar">
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/da8f759d17016f9d795594672f8ae7dc13096a3d0f4f2cebac1b5137b2d94c89?apiKey=ecad7981b6044660bab157a833bb382f&" alt="" class="search-icon" />
-          <div class="search-text">Search</div>
-        </div>
-        <div class="social-icons">
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6f8b743af9aa9a77fb4370a6083855dcda19fda8f768f81a9a3ed320deb924e7?apiKey=ecad7981b6044660bab157a833bb382f&" alt="" class="social-icon-1" />
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/05ed13ba2f3863d027e9feb1854c14ed72d52580c56f108353d8dfd694c4b8d7?apiKey=ecad7981b6044660bab157a833bb382f&" alt="" class="social-icon-2" />
-        </div>
+                <nav class="navigation">
+                    <div class="nav-item">Inicio</div>
+                    <div class="nav-group">
+                        <div class="nav-item">Productos</div>
+                        <div class="nav-item">Contacto</div>
+                    </div>
+                </nav>
+                <div class="search-bar">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/da8f759d17016f9d795594672f8ae7dc13096a3d0f4f2cebac1b5137b2d94c89?apiKey=ecad7981b6044660bab157a833bb382f&"
+                        alt="" class="search-icon" />
+                    <div class="search-text">Search</div>
+                </div>
+                <div class="social-icons">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6f8b743af9aa9a77fb4370a6083855dcda19fda8f768f81a9a3ed320deb924e7?apiKey=ecad7981b6044660bab157a833bb382f&"
+                        alt="" class="social-icon-1" />
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/05ed13ba2f3863d027e9feb1854c14ed72d52580c56f108353d8dfd694c4b8d7?apiKey=ecad7981b6044660bab157a833bb382f&"
+                        alt="" class="social-icon-2" />
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="hero-container ">
+                <div class="hero-image" role="img" aria-label="Hero Image">
+                    <div class="contact-form">
+                        <h2>Contacta con nosotros</h2>
+                        <form action="tu-script-de-procesamiento.php" method="POST">
+                          <label for="nombre">Nombre:</label>
+                          <input type="text" id="nombre" name="nombre" required>
+                    
+                          <label for="email">Correo electrónico:</label>
+                          <input type="email" id="email" name="email" required>
+                    
+                          <label for="mensaje">Mensaje:</label>
+                          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    
+                          <button type="submit">Enviar mensaje</button>
+                        </form>h2>
+                    </div>
+                </div>
+            </div>
+            <section class="about-section">
+                <div class="about-links">
+                    <h2 class="about-title">Acerca de nosotros</h2>
+                    <a href="#" class="about-link">Inicio</a>
+                    <a href="#" class="about-link">Productos</a>
+                    <a href="#" class="about-link">Contactos</a>
+                </div>
+                <div class="about-content">
+                    <h2 class="about-heading">Sobre nosotros</h2>
+                    <p class="about-description">
+                        Somos un equipo comprometido cuyo objetivo es proporcionar productos artesanales de moda que
+                        generen ingresos. Nos especializamos en accesorios para personas de todas las edades, desde los
+                        7 hasta los 60 años, con el propósito de ayudarles a lucir y sentirse mejor.
+                        <br />
+                        <br />
+                        Nuestros accesorios están diseñados con esmero y ofrecen una opción económica para satisfacer
+                        los gustos y necesidades de cada individuo.
+                    </p>
+                </div>
+            </section>
+        </main>
     </div>
-</header>
-    <main>
-      <div class="hero-image" role="img" aria-label="Hero Image"></div>
-      <section class="about-section">
-        <div class="about-links">
-          <h2 class="about-title">Acerca de nosotros</h2>
-          <a href="#" class="about-link">Inicio</a>
-          <a href="#" class="about-link">Productos</a>
-          <a href="#" class="about-link">Contactos</a>
-        </div>
-        <div class="about-content">
-            <h2 class="about-heading">Sobre nosotros</h2>
-          <p class="about-description">
-              Somos un equipo comprometido cuyo objetivo es proporcionar productos artesanales de moda que generen ingresos. Nos especializamos en accesorios para personas de todas las edades, desde los 7 hasta los 60 años, con el propósito de ayudarles a lucir y sentirse mejor.
-              <br />
-            <br />
-            Nuestros accesorios están diseñados con esmero y ofrecen una opción económica para satisfacer los gustos y necesidades de cada individuo.
-          </p>
-        </div>
-      </section>
-    </main>
-  </div>
-    </body>
-    </html>  
+</body>
+
+</html>
